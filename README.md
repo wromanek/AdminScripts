@@ -28,4 +28,4 @@ test_languages
 ```
 So the source table will stay not changed. New tables with `test_` prefix will be created. The newly created tables will contain exactly the same data which which source tables contained at the moment of running script.
 
-Please comment if you have any questions or suggestions. 
+Please contact me if you have any questions or suggestions. 
