@@ -28,4 +28,7 @@ test_languages
 ```
 So the source table will stay not changed. New tables with `test_` prefix will be created. The newly created tables will contain exactly the same data which which source tables contained at the moment of running script.
 
+## copyToNewLocation.sh
+This is very simple script - what it does is simply copying all Joomla CMS files to new localisation. It backups *configuration.php* from target folder. The reason for backup is that I use this script for updating my testing enviroment with the current state of production. In my test enviroment I use diffrent DB so I just do not want to accidentally run test enviroment connected to the production DB.
+
 Please contact me if you have any questions or suggestions. 
